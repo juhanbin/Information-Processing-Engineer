@@ -17,7 +17,7 @@ int func(int n)
         for(i=2;i<=n;i++)
         {
             tmp=curent;
-            curent=last;
+            curent+=last;
             last=tmp;
         }
         return curent;
